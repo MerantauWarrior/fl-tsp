@@ -1,3 +1,12 @@
+@media (min-width: 1280px) and (max-width: 1280px){
+    .services-item:nth-child(even){
+        max-width: 450px;
+    }
+    .services-item:nth-child(6) .services-item__text,
+    .services-item:nth-child(10) .services-item__text{
+        max-width: 250px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1024px){
     .services{
         -webkit-background-size: cover;
@@ -12,9 +21,11 @@
         padding: 0 10px;
     }
     .header{
+        background-image: url('../img/header-bg-mobile.jpg');
+        background-position: center top;
+        background-repeat:no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
-        background-position: 80% top;
     }
     .header__mobile-menu{
         display: block;
@@ -30,6 +41,7 @@
         bottom: 0;
         left: 0;
         padding-top: 25px;
+        overflow: auto;
         z-index: 23;
     }
     .header__menu-logo,
@@ -61,9 +73,6 @@
         margin: 70px 0 45px 0;
         font-size: 22px;
     }
-    .header__slogan-line{
-        display: inline;
-    }
     .title{
         font-size: 24px;
     }
@@ -74,11 +83,11 @@
         margin: 10px 0 20px 0;
     }
     .about__quote,
-    .about__p{
+    .about p{
         font-size: 16px;
     }
-    .about__p{
-        margin-bottom: 15px;
+    .about p{
+        margin: 0 0 15px 0;
     }
     .services{
         padding: 30px 0 1px 0;
