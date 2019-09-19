@@ -24,8 +24,6 @@
         background-image: url('../img/header-bg-mobile.jpg');
         background-position: center top;
         background-repeat:no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
     }
     .header__mobile-menu{
         display: block;
@@ -70,7 +68,7 @@
         max-width: 100%;
     }
     .header__slogan{
-        margin: 70px 0 45px 0;
+        margin: 70px auto 45px auto;
         font-size: 22px;
     }
     .title{
@@ -165,5 +163,26 @@
     }
     .contacts-b{
         margin-bottom: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    .header__slogan{
+        max-width: 359px;
+    }
+    .services__items{
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .services-item:nth-child(odd), .services-item:nth-child(even){
+        max-width: 42%;
+    }
+    div.services-item{
+        align-self:center;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
+    .header{
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 }
