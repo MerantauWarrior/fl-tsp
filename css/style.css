@@ -70,7 +70,8 @@ ul{
 .container__inner{
     padding: 0 64px;
 }
-.title{
+h1{
+    margin: 0;
     font-family: 'RobotoCondensed-Bold', sans-serif;
     font-size: 36px;
     line-height: 1em;
@@ -359,7 +360,8 @@ ul{
 .template__content{
     margin-top: 55px;
 }
-.template__text{
+.template__content p{
+    margin: 0;
     font-family: 'Roboto-Light', sans-serif;
     font-size: 20px;
     line-height: 1.4em;

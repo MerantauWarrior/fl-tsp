@@ -12,6 +12,9 @@
         -webkit-background-size: cover;
         background-size: cover;
     }
+    .partners-item{
+        width: 33.3333333%;
+    }
 }
 @media (min-width: 320px) and (max-width: 767px){
     .container{
@@ -71,7 +74,7 @@
         margin: 70px auto 45px auto;
         font-size: 22px;
     }
-    .title{
+    h1{
         font-size: 24px;
     }
     .about{
